@@ -12,6 +12,9 @@ The main functions for growing and testing trees with or without bagging can be 
 [fast_split.py](fast_split.py) contains the definition of a numba compiled algorithm for finding the optimal split with highest impurity reduction. Numba compilation is used to speed up this most time consuming step of the algorithm. 
 
 The [requirements.txt](requirements.txt) file specifies the dependencies for the project.
+<div align="center">
+  <img src="pruned_tree.png" alt="pruned subtree showing first three splits" width="600">
+</div>
 
 ## References
 - [Dataset used described in T. Zimmermann, R. Premraj and A. Zeller, "Predicting Defects for Eclipse"](https://www.researchgate.net/publication/4261889_Predicting_Defects_for_Eclipse/link/0912f508e35bb6451c000000/download)
