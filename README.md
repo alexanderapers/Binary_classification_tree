@@ -3,7 +3,7 @@ Simple implementation of a binary classification tree on data with numeric featu
 
 Run [experiment.py](src/experiment.py) to train the models on Eclipse 2.0 and predict the presence of bugs on the Eclipse 3.0 dataset. The first experiment uses the vanilla binary decision tree. The second experiment uses the bagging technique while the third experiment runs the random forests algorithm. After running the models a small classification report is shown alongside statistical tests to compare the performance in accuracy between models.
 
-The main functions for growing and testing trees with or without bagging can be found in [main.py](main.py). For random forests, set the "nfeat" parameter to the nearest integer to the square root of the number of predictor variables.
+The main functions for growing and testing trees with or without bagging can be found in [main.py](src/main.py). For random forests, set the "nfeat" parameter to the nearest integer to the square root of the number of predictor variables.
 
 [tree_node.py](src/tree_node.py) contains the definition of the Tree and Node primitives used by the algorithms. 
 
